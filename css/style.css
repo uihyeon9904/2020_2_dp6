@@ -1,0 +1,238 @@
+body{background-color: black; overflow-y: hidden; overflow-x: hidden;
+    font-family: 'Jost', sans-serif;}
+p{font-size: 20vW; display: inline-block; position: relative;}
+
+.scale {transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+         transition: all 0.4s ease-in-out;}
+
+.scale:hover {transform: scale(1.2);
+             -webkit-transform: scale(1.2);
+             -moz-transform: scale(1.2);
+             -ms-transform: scale(1.2);
+             -o-transform: scale(1.2);}
+
+.title{animation: title;
+      animation-duration: 0.9s;
+      animation-iteration-count:1;
+      animation-direction: normal;
+      animation-fill-mode: both;
+      animation-delay: 0s;
+      animation-timing-function: ease-in-out;}
+
+.up{animation: up;
+      animation-duration: 3s;
+      animation-iteration-count:1;
+      animation-direction: normal;
+      animation-fill-mode: both;
+      animation-delay: 0.6s;
+      animation-timing-function: ease-in-out;}
+
+.p{animation: p;
+      animation-duration: 3s;
+      animation-iteration-count:1;
+      animation-direction: normal;
+      animation-fill-mode: both;
+      animation-delay: 1.7s;
+      animation-timing-function: ease-out;}
+
+.head{animation: head;
+      animation-duration: 3s;
+      animation-iteration-count:1;
+      animation-direction: normal;
+      animation-fill-mode: both;
+      animation-delay: 0.3s;}
+
+.circle1{width: 5%; height: 8%; border-radius: 50%; 
+       background-color: #f2ff73; position: relative;
+       filter: blur(29px);
+       animation: circle1;
+         animation-duration: 7s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle2{width: 6%; height: 12%; border-radius: 50%; 
+       background-color: #5fbeff; position: relative;
+       filter: blur(40px);
+       animation: circle2;
+         animation-duration: 4s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle3{width: 5%; height: 8%; border-radius: 50%; 
+       background-color: #5fbeff; position: relative;
+       filter: blur(30px);
+       animation: circle3;
+         animation-duration: 7s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle4{width: 4%; height: 7%; border-radius: 50%; 
+       background-color: #6cd86c; position: relative;
+       filter: blur(30px);
+       animation: circle4;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle5{width: 6%; height: 9%; border-radius: 50%; 
+       background-color: #ff675f; position: relative;
+       filter: blur(30px);
+       animation: circle5;
+         animation-duration: 3s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle6{width: 5%; height: 9%; border-radius: 50%; 
+       background-color: #c199ff; position: relative;
+       filter: blur(30px);
+       animation: circle6;
+         animation-duration: 3s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle7{width: 4%; height: 7%; border-radius: 50%; 
+       background-color: #c199ff; position: relative;
+       filter: blur(30px);
+       animation: circle7;
+         animation-duration: 3s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle8{width: 5%; height: 7%; border-radius: 50%; 
+       background-color:#95FEF3; position: relative;
+       filter: blur(30px);
+       animation: circle8;
+         animation-duration: 4s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+
+
+
+.circle9{width: 4%; height: 7%; border-radius: 50%; 
+       background-color: #f2ff73; position: relative;
+       filter: blur(29px);
+       animation: circle9;
+         animation-duration: 7s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle10{width: 4%; height: 12%; border-radius: 50%; 
+       background-color: #5fbeff; position: relative;
+       filter: blur(40px);
+       animation: circle10;
+         animation-duration: 4s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle11{width: 6%; height: 9%; border-radius: 50%; 
+       background-color: #5fbeff; position: relative;
+       filter: blur(30px);
+       animation: circle11;
+         animation-duration: 7s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle12{width: 4%; height: 7%; border-radius: 50%; 
+       background-color: #6cd86c; position: relative;
+       filter: blur(30px);
+       animation: circle12;
+         animation-duration: 4s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle13{width: 6%; height: 9%; border-radius: 50%; 
+       background-color: #ff675f; position: relative;
+       filter: blur(30px);
+       animation: circle13;
+         animation-duration: 3s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+.circle14{width: 5%; height: 9%; border-radius: 50%; 
+       background-color: #c199ff; position: relative;
+       filter: blur(30px);
+       animation: circle14;
+         animation-duration: 3.5s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;}
+
+@keyframes circle1
+           {0%{left: 3%; top: 33%; opacity: 0.9}
+           100%{left: 2%; top: 37%; opacity: 0.6}}
+
+@keyframes circle2
+           {0%{left: 16%; top: -13%; opacity: 0.8}
+           100%{left: 16%; top: -5%; opacity: 1}}
+
+@keyframes circle3
+           {0%{left: 37%; top: 67%; opacity: 0.7}
+           100%{left: 37%; top: 58%; opacity: 0.5}}
+
+@keyframes circle4
+           {0%{left: 83%; top: 49%; opacity: 0.5}
+           100%{left: 82%; top: 54%; opacity: 0.8}}
+
+@keyframes circle5
+           {0%{left: 92%; top: 21%; opacity: 0.9}
+           100%{left: 92%; top: 14%; opacity: 0.6}}
+
+@keyframes circle6
+           {0%{left: 64.5%; top: -40%; opacity: 0.7}
+           100%{left: 64.5%; top: -26%; opacity: 0.9}}
+
+@keyframes circle7
+           {0%{left: 26%; top: 10%; opacity: 0.5}
+           100%{left: 26%; top: 0%; opacity: 1}}
+
+@keyframes circle8
+           {0%{left: 70%; top: 7%; opacity: 0.5}
+           100%{left: 69%; top: 0%; opacity: 0.8}}
+
+@keyframes logo
+           {0%{opacity: 0%}
+           100%{opacity: 100%}}
+
+@keyframes p
+           {0%{opacity: 0%}
+           100%{opacity: 100%}}
+
+@keyframes head
+           {0%{opacity: 0%}
+           100%{opacity: 100%}}
+
+@keyframes circle9
+           {0%{left: 87%; top: -50%; opacity: 0.9}
+           100%{left: 86%; top: -46%; opacity: 0.6}}
+
+@keyframes circle10
+           {0%{left: 34%; top: -64%; opacity: 0.8}
+           100%{left: 33%; top: -56%; opacity: 1}}
+
+@keyframes circle11
+           {0%{left: 5%; top: -12%; opacity: 0.7}
+           100%{left: 6%; top: -19%; opacity: 0.5}}
+
+@keyframes circle12
+           {0%{left: 50%; top:-28%; opacity: 0.5}
+           100%{left: 49%; top: -20%; opacity: 0.8}}
+
+@keyframes circle13
+           {0%{left: 16%; top: -18%; opacity: 0.9}
+           100%{left: 16%; top: -13%; opacity: 0.6}}
+
+@keyframes circle14
+           {0%{left: 59%; top: -25%; opacity: 0.7}
+           100%{left: 59%; top: -17%; opacity: 0.9}}
+
+@keyframes title
+           {0%{left: 5%; top: 0%; opacity: 0; width: 100%; height: auto;}
+           100%{left: 2.2%; top: 5%; opacity: 1; width: 22%; height: auto;}}
+
+@keyframes up
+           {0%{opacity: 0;}
+           100%{opacity: 1;}}
